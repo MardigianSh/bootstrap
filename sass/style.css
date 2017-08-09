@@ -1,0 +1,89 @@
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px; }
+
+.header h1, .header p {
+  color: white;
+  padding: 10px 0;
+  letter-spacing: 1px; }
+
+.media-object:hover {
+  -webkit-transform: scale(1.2, 1.1);
+  -ms-transform: scale(1.2, 1.1);
+  transform: scale(1.2, 1.1); }
+
+body {
+  background: url("../images/bg.jpg") no-repeat fixed; }
+
+p {
+  font-size: 1.25em;
+  line-height: 1.6;
+  color: #000; }
+
+.header h1 {
+  font-size: 50px;
+  font-family: cursive; }
+
+.navbar {
+  padding: 20px 0;
+  background: rgba(255, 255, 255, 0.9); }
+  .navbar .navbar-collapse {
+    text-align: center; }
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    font-size: 20px; }
+
+li {
+  margin: 0 20px;
+  font-weight: 100; }
+
+.row {
+  background: rgba(255, 255, 255, 0.9); }
+
+.space::after {
+  content: "space";
+  display: table;
+  clear: both;
+  opacity: 0; }
+
+hr {
+  max-width: 400px;
+  border-color: #999999; }
+
+.font-weight {
+  font-weight: 900; }
+
+p {
+  margin-left: 20px; }
+
+footer p {
+  padding: 50px 0; }
+
+.jumbotron {
+  background: #cdcdcd; }
+
+.btn-muted {
+  border: 1px solid #999999;
+  background: white; }
+  .btn-muted:hover {
+    background: #cdcdcd; }
+
+.top {
+  margin-top: 30px; }
+
+.bottom {
+  margin-bottom: 30px; }
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: none; }
+
+  .media-left {
+    display: block;
+    margin-left: 25%; } }
+
+/*# sourceMappingURL=style.css.map */
