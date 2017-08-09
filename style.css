@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.2, 1.1); }
 
 body {
-  background: url("../images/bg.jpg") no-repeat fixed; }
+  background: url("bg.jpg") no-repeat fixed; }
 
 p {
   font-size: 1.25em;
